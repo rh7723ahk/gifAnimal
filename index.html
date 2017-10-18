@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giphy Animals</title>
+  
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<div class="clear"></div>
+
+<body>
+  <div class="wrapper">
+    <div class="col-md-1"></div>
+    <div class="col-md-6">
+      <div id=animalButtons>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <form id="animalForm">
+        <label for="animalImage">Add a Addtional Animal
+        </label>
+        <input type="text" id=animalInput></input>
+        <input id="addAnimal" type="submit" value="submit"></input>
+      </form>
+      <h2>Click on any of the above animals to see 10 gifs of animals</h2>
+      <p> Add more animals by submitting your own!</p>
+      <p> Click on animals to active the animation</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-12">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div id=animals>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

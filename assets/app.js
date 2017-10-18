@@ -2,7 +2,7 @@ $(document).ready (function() {
 
 $('#animalButton').on('click', function() {
 
-	var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats"
+	var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats"
 	$.ajax({url: queryURL, method: 'GET'})
 
             .done(function(response) {
@@ -15,7 +15,7 @@ $('#animalButton').on('click', function() {
 
     $('#addAnimal').on('click', function() {
 
-        var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=" + "input";
+        var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=" + "input";
 
         $.ajax({url: queryURL, method: 'GET'})
 
